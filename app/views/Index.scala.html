@@ -1,7 +1,81 @@
-@(message: String)
-
 @Main("Home") {
+
   <div class="container">
-    <p>@message</p>
+
+  </div>
+
+  <div class="page-content color-6">
+    <a name="home"></a>
+    <h1>MAGS</h1>
+    <p class="lead">We make magic.</p>
+    <button class="btn btn-default" type="submit">Learn More</button>
+  </div>
+
+  <div class="page-content color-2">
+    <a name="intro"></a>
+    <h1>Choose your favorite plan</h1>
+    <p class="lead">Yo dude! Memories are forever. You can always upgrade/downgrade later.</p>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="well well-color">
+          <h2>Tier 1</h2>
+          <button class="btn btn-default" type="submit">Learn More</button>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="well well-color">
+          <h2>Tier 2</h2>
+          <button class="btn btn-default" type="submit">Learn More</button>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="well well-color">
+          <h2>Tier 3</h2>
+          <button class="btn btn-default" type="submit">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-content color-3">
+    <a name="newsletter"></a>
+    <h1>Newsletter</h1>
+    <p class="lead">Sign up and we'll send you all the updates you need. We use Mailchimp so you can unsubscribe any time.</p>
+    <button class="btn btn-default" type="submit">Sign Up</button>
+  </div>
+
+  <div class="page-content color-4">
+    <a name="social"></a>
+    <h1>Social Media</h1>
+    <p class="lead">Sign up for our social media feed. We handle all customer support on Twitter.</p>
+    <button class="btn btn-default" type="submit">Find us on Twitter</button>
+  </div>
+
+  <div class="page-content color-5">
+    <a name="videos"></a>
+    <h1>Videos</h1>
+    <p class="lead">Know what I mean?</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RqgN6iWMkb0" frameborder="0" allowfullscreen></iframe>
+    <h3>Got an idea for a video?</h3>
+    <button class="btn btn-default" type="submit">Suggest a Video</button>
+  </div>
+
+  <div class="page-content color-8">
+    <a name="contact"></a>
+    <h1>Contact Us</h1>
+    <p class="lead">You know the drill.</p>
+    <button class="btn btn-default" type="submit">Contact Us</button>
+  </div>
+
+  <div class="footer-content color-7 footer">
+    <a name="footer"></a>
+    <ul>
+      <li><a href="@routes.Application.index()">Home</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#signup">Sign Up</a></li>
+      <li><a href="#signin">Sign In</a></li>
+    </ul>
   </div>
 }
